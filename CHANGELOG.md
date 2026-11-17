@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.6.2
+
+- Make the preprocessing cancellation test independent of the developer’s local
+  Codex model configuration, so the full suite also runs on clean CI machines.
+
 ## 1.6.1
 
 First public installation release.

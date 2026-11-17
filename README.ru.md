@@ -32,12 +32,12 @@ PGS/DVD сохраняются исходные изображения букв.
    codex login
    ```
 
-3. Скачайте `vlc-codex-subs-1.6.1.zip` из
+3. Скачайте `vlc-codex-subs-1.6.2.zip` из
    [последнего релиза](https://github.com/mavaurel/vlc-codex-subs/releases/latest),
    распакуйте и запустите в терминале:
 
    ```sh
-   cd /путь/к/vlc-codex-subs-1.6.1
+   cd /путь/к/vlc-codex-subs-1.6.2
    python3 install.py
    ```
 

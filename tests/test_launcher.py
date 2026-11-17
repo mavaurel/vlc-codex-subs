@@ -73,9 +73,9 @@ class LauncherTests(unittest.TestCase):
                 started.set()
                 return run([sys.executable,'-c','import time; time.sleep(30)'], cancel=job/'cancel')
             with patch('codex_subs.cli.resolve_source', side_effect=preprocessing):
-                thread=threading.Thread(target=worker,args=(job,{}))
+                thread=threading.Thread(target=worker,args=(job,{'model':'test'}))
                 thread.start()
-                self.assertTrue(started.wait(3))
+                self.assertTrue(started.wait(3), (job/'status.txt').read_text())
                 (job/'cancel').touch()
                 thread.join(3)
                 self.assertFalse(thread.is_alive())

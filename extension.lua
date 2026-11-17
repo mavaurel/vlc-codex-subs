@@ -17,7 +17,7 @@ local recover_job
 function descriptor()
     return {
         title = "Codex Russian Subtitles",
-        version = "1.6.1",
+        version = "1.6.2",
         author = "VLC Codex Subtitles",
         shortdesc = "Russian subtitles from multiple languages",
         description = "Translate text, PGS or DVD subtitles through Codex CLI, with local OCR and multilingual references.",

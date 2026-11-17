@@ -42,12 +42,12 @@ Requires **VLC 3**, **Python 3.10+**, **Codex CLI** with a working login, and
    codex login
    ```
 
-3. Download and extract `vlc-codex-subs-1.6.1.zip` from the
+3. Download and extract `vlc-codex-subs-1.6.2.zip` from the
    [latest release](https://github.com/mavaurel/vlc-codex-subs/releases/latest).
    In a terminal, open the extracted directory and install:
 
    ```sh
-   cd /path/to/vlc-codex-subs-1.6.1
+   cd /path/to/vlc-codex-subs-1.6.2
    python3 install.py
    ```
 
