@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+dist/
+.codex-subs-cache/
+*.sources/
+*.review.json
+# Runtime data and credentials never belong in the source repository.
+config.json
+.env
+.env.*
+jobs/
+cache/
+*.log
+# Built locally; GPL-linked, architecture-specific DVD helper.
+codex_subs/bin/
